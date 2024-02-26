@@ -12,5 +12,5 @@ def pdf_txt(direct):
             file1.writelines(text)
     print("PDF to TXT conversion complete.")
 
-directory = glob.glob('C:/Users/Ilya/Desktop/songs/*.pdf')
+directory = glob.glob('C:/your/ptch/to/folder/*.pdf')
 pdf_txt(directory)

@@ -18,5 +18,5 @@ def rtf_txt(direct):
 
     print("RTF to TXT conversion complete.")
 
-directory = glob.glob('C:/Users/Ilya/Desktop/songs/*.rtf')
+directory = glob.glob('C:/your/ptch/to/folder/*.rtf')
 rtf_txt(directory)

@@ -8,5 +8,5 @@ def docx_txt(direct):
                 outfile.write(doc)
     print("DOCX to TXT conversion complete.")
 
-directory = glob.glob('C:/Users/Ilya/Desktop/songs/*.docx')
+directory = glob.glob('C:/your/ptch/to/folder/*.docx')
 docx_txt(directory)
